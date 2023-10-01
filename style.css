@@ -1,0 +1,292 @@
+body
+{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+#home
+{
+    width: 100%;
+    height: 95vh;
+    position: relative;
+    box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.2);
+    
+}
+
+.home
+{
+    background-color: lightblue;
+    height: 50%;
+    border-radius: 2px 3px rgb(190, 218, 228);
+    margin-right: 100px;
+    justify-content: center;
+    border-top-right-radius: 100px;
+    border-left-style: dotted;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: lightsteelblue;
+    box-shadow: 2px 2px 17px rgba(0, 0, 0, 0.2);
+}
+
+nav ul
+{
+    display: flex;
+}
+
+nav ul li a
+{
+    margin: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(5, 5, 5);
+    font-weight: 650;
+}
+
+nav ul li a:hover
+{
+    background-color: darkblue;
+    color: white;
+    border-radius: 3px;
+}
+
+.logo
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:black;
+    margin-left: 40px;
+}
+
+.home p
+{
+    line-height: 0px;
+    margin: 55px 25px 25px;
+    box-shadow: 10px 10px 10px lightgrey;
+}
+
+.home p:nth-child(1)
+{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    text-shadow: 3px 3px lightgray;
+}
+
+
+.home p:nth-child(2)
+{
+    font-family: cursive;
+    font-weight: bold;
+    color: #1a1a1a;
+    letter-spacing: 2px;
+    font-size: 30px;
+    text-shadow: 3px 3px lightgrey;
+}
+
+
+.home p:nth-child(3)
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 0px;
+}
+
+
+.home p:nth-child(4)
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    text-shadow: 3px 3px lightgrey;
+}
+
+
+.home p:nth-child(5)
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #1a1a1a;
+    font-size: 20px;
+    text-shadow: 3px 3px lightgrey;
+}
+
+.home
+{
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    transform: translate(13% , 42%);
+}
+
+.picture
+{
+    width: 650px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+
+#about
+{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(236, 236, 253);
+}
+
+.about
+{
+    margin: 50px;
+    padding: 30px;
+}
+
+.about-desc
+{
+    margin: 50px 50px;
+}
+
+.about-desc p
+{
+    margin: 40px;
+    text-align: center;
+}
+
+.about-desc p:nth-child(1)
+{
+    font-family: arial black;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-desc p:nth-child(2)
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+
+#skill
+{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+}
+
+.row
+{
+    margin: 30px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+
+.column p
+{
+    font-family: cursive;
+    font: 800px;
+}
+
+.column
+{
+    margin: 5px;
+    height: 250px;
+    width: 200px;
+    border: 5px inset;
+}
+
+.column img
+{
+    height: 100px;
+    color: white;
+    
+}
+
+#contact
+{
+    width: 90%;
+    height: 90%;
+    background-color: rgb(215, 237, 245);
+    padding: 70px;
+}
+
+.contact-desc
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+input[type=text], select ,textarea
+{
+    width: 100%;
+    height: 30px;
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+input[type=submit]
+{
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 12px 24px;
+
+}
+
+input[type=submit]:hover
+{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+}
+
+input[type=submit]:active
+{
+    transform: scale(1.2);
+}
+
+footer
+{
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: lavender;
+}
+
+.social-icon
+{
+    margin-bottom: 10px;
+}
